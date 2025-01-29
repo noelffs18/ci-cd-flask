@@ -1,4 +1,4 @@
-name: CI/CD Preproducción
+name: CI/CD Preproduction
 
 on:
   push:
