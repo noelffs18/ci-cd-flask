@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
 
 env:
-  # github.repository = <account>/<repo>
-  IMAGE_NAME: ${{ github.repository }}
-  #IMAGE_NAME: ci-cd-python
+  # github.repository = <account>/<repo>. Example: josejuansanchez/ci-cd-python
+  #IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: ci-cd-python
 
 jobs:
   test:
