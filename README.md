@@ -30,13 +30,13 @@ deactivate
 
 ## Cómo ejecutar los tests
 
+Para realizar los tests vamos a utilizar `unittest`, que es el framework de
+pruebas unitarias que viene integrado en Python.
+
 Desde la raíz del proyecto, ejecutamos el siguiente comando.
 
 ```bash
-python3 -m unittest discover -s tests
+python3 -m unittest tests/*.py
 ```
 
-- `unittest`: Es el framework de pruebas unitarias que viene integrado en Python.
-- `python3 -m unittest`: Ejecuta el módulo `unittest` como un script.
-- `discover`: Es una subcomando de `unittest` que busca automáticamente archivos de prueba en el directorio especificado.
-- `-s tests`: El parámetro `-s` indica el directorio donde se encuentran los archivos de prueba, que en este caso será el directorio `tests`.
+Este comando ejecutará todos los tests que se encuentren en la carpeta `tests`.
